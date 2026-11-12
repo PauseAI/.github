@@ -1,0 +1,33 @@
+name: Feature request
+description: Suggest an idea or improvement.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion.
+
+        **Security problem or personal data?** Don't file it here: public issues can be read by anyone. See [how to report privately](https://github.com/PauseAI/.github/blob/main/SECURITY.md).
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Who is it for, and what are they trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to happen?
+      description: Describe the change or feature you have in mind.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Other options you've considered
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Mock-ups, examples or links.
