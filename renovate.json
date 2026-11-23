@@ -6,7 +6,6 @@
   "schedule": ["before 6am on monday"],
   "minimumReleaseAge": "3 days",
   "labels": ["dependencies"],
-  "dependencyDashboard": true,
   "packageRules": [
     {
       "description": "One weekly PR for all minor and patch updates",
